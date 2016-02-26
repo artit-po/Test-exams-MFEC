@@ -19,7 +19,7 @@ public class Salary {
         Time timeOut = new Time(17, 0, 0);
         Time OttimeOut = new Time(17, 30, 0);
         double rateOt = (290.00 / 8.00) * 1.5; //290 เงินต่อวัน 8 hr / 8 คือ ชั่วโมงทำงาน/วัน 1.5 คือ ค่า ot ปกติ
-        BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\AppServ\\www\\test-MFEC\\src\\javaapplication1\\1.working_time.log"), "TIS-620"));
+        BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\1.working_time.log"), "TIS-620"));
         String line;
         int o = 0;
         while ((line = in.readLine()) != null) {
